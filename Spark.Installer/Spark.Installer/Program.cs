@@ -9,6 +9,20 @@ namespace Spark.Installer
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            //<!-- Add Spark builder definition here. -->
+
+
+
+
+
+
+
+
+
+            //<!-- End Spark builder definition here. -->
+
+            builder.Services.AddRazorPages();                
+
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents()
